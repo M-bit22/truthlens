@@ -1,0 +1,62 @@
+{
+  "served_model": "Logistic Regression",
+  "train_articles": 31059,
+  "test_articles": 7765,
+  "vocabulary": 40000,
+  "results": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9867353509336767,
+      "precision": 0.9895803998873557,
+      "recall": 0.9815642458100559,
+      "f1": 0.985556022998177,
+      "roc_auc": 0.9985791233655714,
+      "confusion_matrix": [
+        [
+          4148,
+          37
+        ],
+        [
+          66,
+          3514
+        ]
+      ]
+    },
+    {
+      "model": "Naive Bayes",
+      "accuracy": 0.9430779137153895,
+      "precision": 0.9380234505862647,
+      "recall": 0.9385474860335196,
+      "f1": 0.938285395141022,
+      "roc_auc": 0.9837938767745941,
+      "confusion_matrix": [
+        [
+          3963,
+          222
+        ],
+        [
+          220,
+          3360
+        ]
+      ]
+    },
+    {
+      "model": "Passive Aggressive",
+      "accuracy": 0.989311010946555,
+      "precision": 0.9893646795410019,
+      "recall": 0.9874301675977654,
+      "f1": 0.9883964770026562,
+      "roc_auc": 0.999008496692764,
+      "confusion_matrix": [
+        [
+          4147,
+          38
+        ],
+        [
+          45,
+          3535
+        ]
+      ]
+    }
+  ]
+}
